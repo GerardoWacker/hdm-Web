@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    --mdc-theme-primary: #8e21f3;
 }
 
 .mdc-top-app-bar {
