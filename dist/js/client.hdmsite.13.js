@@ -17,5 +17,5 @@ readTextFile("https://passport.mscpn.com/getusers.php", function(response) {
 
 readTextFile("https://passport.mscpn.com/getonline.php", function(response) {
     var json = JSON.parse(response);
-    document.getElementById("amountplaying").innerHTML = json.users.length;
+    document.getElementById("amountplaying").innerHTML = json.users.length - 1;
 });
