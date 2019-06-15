@@ -30,6 +30,31 @@ body {
     z-index: 999;
 }
 
+.content {
+    text-align: center
+}
+
+.list-c {
+    column-count: 3;
+    column-gap: 16px;
+}
+
+.list-e {
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.mdc-card {
+    padding: 10px;
+}
+
+.mdc-layout-grid__inner {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 24px;
+    padding: var(--mdc-layout-grid-margin-desktop, 24px);
+}
+
 
 @keyframes fadein {
     from { opacity: 0; }

@@ -34,10 +34,11 @@
           <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
             <span class="mdc-top-app-bar__title">hdmClient</span>
             <div class="top-app-bar__buttons">
-                <button class="mdc-button">inicio</button>
-                <button class="mdc-button">funciones</button>
-                <button class="mdc-button">nuestro equipo</button>
-                <button class="mdc-button">descargar</button>
+                <a href="#home" style="text-decoration: none;"><button class="mdc-button">inicio</button></a>
+                <a href="#caracteristicas" style="text-decoration: none;"><button class="mdc-button">características</button></a>
+                <a href="#estadisticas" style="text-decoration: none;"><button class="mdc-button">estadísticas</button></a>
+                <a href="#contacto" style="text-decoration: none;"><button class="mdc-button">contacto</button></a>
+                <button class="mdc-button">nuestro equipo</button></a>
             </div>
           </section>
           <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
@@ -46,21 +47,116 @@
         </div>
       </header>
       <div class="mdc-top-app-bar--fixed-adjust">
-          <div id="home" class="main-title">
+        <div id="home" class="main-title">
           <div class="mdc-layout-grid">
-          <div class="mdc-layout-grid__inner">
-          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-12-tablet">
-          <br>
-          <img src="static/img/logo_512x512.png" style="width: 100px; height: 100px;"><br><br>
-          <span class="mdc-typography--headline1">hdmClient</span><br><br>
-          <span class="mdc-typography--headline6">Cliente de Minecraft 1.8 gratuito para PvP con mejoras y mods.</span><br><br><br>
-          <a href="/downloads" class="mdc-button mdc-button--raised">
-          <span class="mdc-button__label">descargar</span>
-          </a>
+            <div class="mdc-layout-grid__inner">
+              <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-12-tablet">
+                <br>
+                <img src="static/img/logo_512x512.png" style="width: 100px; height: 100px;"><br><br>
+                <span class="mdc-typography--headline1">hdmClient</span><br><br>
+                <span class="mdc-typography--headline">Cliente de Minecraft 1.8 gratuito para PvP con mejoras y mods.</span><br><br><br>
+                <a href="/downloads" class="mdc-button mdc-button--raised">
+                  <span class="mdc-button__label">descargar</span>
+                </a>
+              </div>
+              </div>
+            </div>
           </div>
-          </div>
-          </div>
-          </div>
+          <section id="caracteristicas" style="background: rgb(83, 83, 83)">
+              <div class="mdc-layout-grid">
+                <div class="mdc-layout-grid__inner">
+                  <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop">
+                    <div class="content">
+                        <span class="mdc-typography--headline2" style="color: #fff">Características</span>
+                        <br>
+                        <span class="mdc-typography--headline6" style="color:#fff">Estas son algunas de las funciones que ofrecemos, completamente GRATIS!</span>
+                        <br>
+                        <br>
+                        <ul class="mdc-image-list mdc-image-list--masonry list-c">
+                            <li class="mdc-image-list__item">
+                              <div class="mdc-card" style="background: url(static/img/0.png); background-position-y: 50%; background-position-x: 40%;">
+                                <center>
+                                  <img style="width: 180px; height: 120px" src="static/img/010101.png" alt="Mods">
+                                </center>
+                                <span class="mdc-typography--headline6" style="color: #fff">Mods de PvP!</span>
+                              </div>
+                            </li>
+                            <li class="mdc-image-list__item">
+                                <div class="mdc-card" style="background: url(static/img/1.png); background-position-y: 50%; background-position-x: 40%;">
+                                  <center>
+                                    <img style="width: 160px; height: 120px" src="static/img/020202.png" alt="Optifine + BetterFps">
+                                  </center>
+                                  <span class="mdc-typography--headline6" style="color: #fff">Más FPS!</span>
+                                </div>
+                            </li>
+                            <li class="mdc-image-list__item">
+                              <div class="mdc-card" style="background: url(static/img/2.png); background-position-y: 50%; background-position-x: 40%;">
+                                <center>
+                                  <img style="width: 180px; height: 95px" src="static/img/030303.png" alt="ArkFlame">
+                                </center>
+                                <span class="mdc-typography--headline6" style="color: #fff">Integración con ArkFlame!</span>
+                              </div>
+                            </li>
+                          </ul>
+                    </div>
+                  </div>
+                </div>
+          </section>
+          <section id="estadisticas" style="background: rgb(46, 46, 46)">
+              <div class="mdc-layout-grid">
+                  <div class="mdc-layout-grid__inner">
+                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop">
+                      <div class="content">
+                          <span class="mdc-typography--headline2" style="color: #fff">Estadísticas</span>
+                          <br>
+                          <span class="mdc-typography--headline6" style="color:#fff">Datos que recolectamos sobre el cliente</span>
+                          <br>
+                          <br>
+                          <ul class="mdc-image-list mdc-image-list--masonry list-e">
+                              <li class="mdc-image-list__item">
+                                <div class="mdc-card">
+                                  <br>
+                                  <center>
+                                    <img style="width: 80px; height: 80px" src="static/img/user.png" alt="Usuario">
+                                  </center>
+                                  <span class="mdc-typography--headline4" style="color: rgb(34, 34, 34)">Usuarios registrados:</span><br>
+                                  <span id="amount" class="mdc-typography--headline2" style="color: rgb(34, 34, 34)">-</span>
+                                  <br>
+                                </div>
+                              </li>
+                              <li class="mdc-image-list__item">
+                                  <div class="mdc-card">
+                                    <br>
+                                    <center>
+                                      <img style="width: 100px; height: 80px" src="static/img/hdm.png" alt="Computadora con hdmClient">
+                                    </center>
+                                    <span class="mdc-typography--headline4" style="color: rgb(34, 34, 34)">Jugando en este momento:</span><br>
+                                    <span id="amountplaying" class="mdc-typography--headline2" style="color: rgb(34, 34, 34)">-</span>
+                                    <br>
+                                  </div>
+                              </li>
+                            </ul>
+                      </div>
+                    </div>
+                  </div>
+          </section>
+          <section id="contacto" style="background: rgb(34, 34, 34)">
+            <div class="mdc-layout-grid">
+              <div class="mdc-layout-grid__inner">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop">
+                  <div class="content">
+                      <span class="mdc-typography--headline2" style="color: #fff">Contacto</span>
+                      <br>
+                      <span class="mdc-typography--headline6" style="color:#fff">Para contactarnos debes ingresar a nuestro Discord:</span>
+                      <br>
+                      <br>
+                      <a href="http://discord.gg/4NY7ZUy"><img src="https://discordapp.com/assets/192cb9459cbc0f9e73e2591b700f1857.svg" style="width:300px; height:100px;" alt="Discord"></a>
+                  </div>
+                </div>
+              </div>
+          </section>
+      </div>
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script src="dist/js/client.hdmsite.13.js"></script>
 </body>
 </html>
