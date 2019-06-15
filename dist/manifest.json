@@ -1,0 +1,16 @@
+{
+    "short_name": "hdm",
+    "name": "Sitio de hdmClient",
+    "icons": [
+      {
+        "src": "/static/img/logo_512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#ffffff"
+  }
