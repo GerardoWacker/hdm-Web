@@ -10,12 +10,12 @@ function readTextFile(file, callback) {
     rawFile.send(null);
 }
 
-readTextFile("http://passport.mscpn.com/getusers.php", function(response) {
+readTextFile("https://passport.mscpn.com/getusers.php", function(response) {
     var json = JSON.parse(response);
     document.getElementById("amount").innerHTML = json.users.length;
 });
 
-readTextFile("http://passport.mscpn.com/getonline.php", function(response) {
+readTextFile("https://passport.mscpn.com/getonline.php", function(response) {
     var json = JSON.parse(response);
     document.getElementById("amountplaying").innerHTML = json.users.length;
 });
