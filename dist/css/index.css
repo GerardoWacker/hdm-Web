@@ -44,6 +44,11 @@ body {
     column-gap: 40px;
 }
 
+.list-ne {
+    column-count: 4;
+    column-gap: 20px;
+}
+
 .mdc-card {
     padding: 10px;
 }
