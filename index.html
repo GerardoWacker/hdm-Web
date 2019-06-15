@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>hdmClient</title>
     <link rel="shortcut icon" href="static/img/logo_512x512.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" />
     <link rel="stylesheet" href="dist/css/index.css">
     <link rel="manifest" href="dist/manifest.json">
     <meta name="keywords" content="hdm, client, minecraft, minecraft 1.8, hdmclient, hdm client, gerardowacker, grdx, arkflame, arkflame network, forge, mcforge, games, custom, cool, clicks, download, skywars, bedwars, ffa, arenapvp, ez, free, legit">
@@ -25,9 +28,41 @@
     <meta name="twitter:image" content="https://client.mscpn.com/static/img/logo_512x512.png" />
 
 </head>
-<body>
-    <div class="">
-
-    </div>
+<body class="mdc-typography">
+    <header class="mdc-top-app-bar mdc-top-app-bar--short">
+        <div class="mdc-top-app-bar__row">
+          <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+            <span class="mdc-top-app-bar__title">hdmClient</span>
+            <div class="top-app-bar__buttons">
+                <button class="mdc-button">inicio</button>
+                <button class="mdc-button">funciones</button>
+                <button class="mdc-button">nuestro equipo</button>
+                <button class="mdc-button">descargar</button>
+            </div>
+          </section>
+          <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+            <button class="mdc-button mdc-button--raised">iniciar sesión</button>
+          </section>
+        </div>
+      </header>
+      <div class="mdc-top-app-bar--fixed-adjust">
+          <div id="home" class="main-title">
+          <div class="mdc-layout-grid">
+          <div class="mdc-layout-grid__inner">
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-12-phone mdc-layout-grid__cell--span-12-tablet">
+          <h1 class="mdc-typography--headline2 mdc-theme--text-primary-on-dark">
+          hdmClient
+          </h1>
+          <span class="mdc-typography--body1 mdc-theme--text-primary-on-dark">
+          Cliente de Minecraft 1.8 gratuito para PvP con mejoras y mods.
+          </span><br><br>
+          <a href="/downloads" class="mdc-button mdc-button--raised">
+          <span class="mdc-button__label">descargar</span>
+          </a>
+          </div>
+          </div>
+          </div>
+          </div>
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 </body>
 </html>
