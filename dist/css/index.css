@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     --mdc-theme-primary: #8e21f3;
+    user-select: none;
 }
 
 .mdc-top-app-bar {
